@@ -6,6 +6,16 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 
 ---
 
+## Project Overview
+
+This project involves:
+1. **Data Archetecture**: Designing a modern data warehouse using medallion archetecture (Bronze, Silver, and Gold) layers
+2. **ETL Pipeline**: Extractint, tranforming, and loading data from sourse system into warehouse.
+3. **Data Modelling**: Developing fact and dimension tables optimized for analytical queries.
+4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+
+---
+
 ## Project Requirements
 
 ### Building the Data Warehouse (Data Engineering)
@@ -33,6 +43,15 @@ Develop SQL-based analytics to deliver detailed insights into:
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
 --- 
+## Data Archetecture
+
+The data archetecture for this project follows Medallion Archetecture, including Bronze, Silver, and, Gold layers, as follows:
+
+![Data_Arc](https://github.com/Ali-Shehabeldeen/SQL-DWH-Project/blob/main/docs/DWH%20Project%20Arch.drawio.png)
+
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV files into SQL Server Database.
+2. **Silver Layer**: This layer includes data cleansing, standarization, and normalization processes to prepare data for analysis.
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ## License
 
