@@ -77,10 +77,10 @@ GO
 
 CREATE VIEW gold.fact_sales AS
 SELECT 
-	sd.sls_ord_num AS oreder_number,
+	sd.sls_ord_num AS order_number,
 	dp.product_key,
 	dc.customer_key,
-	sd.sls_order_dt AS oreder_date,
+	sd.sls_order_dt AS order_date,
 	sd.sls_ship_dt AS shipping_date,
 	sd.sls_due_dt AS due_date,
 	sd.sls_sales AS sales_amount,
