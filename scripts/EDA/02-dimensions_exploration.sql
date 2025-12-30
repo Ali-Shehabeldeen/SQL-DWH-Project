@@ -3,7 +3,7 @@
 EDA: Exploring dimension columns
 =================================================================================
 Script Purpose:
-    This script focus on the descriptive attributes that provide context and 
+    This script focuses on the descriptive attributes that provide context and 
     meaning to the data. 
     This involves examining the columns in the dimension tables to understand 
     their data types, distributions, and relationships with other tables.
