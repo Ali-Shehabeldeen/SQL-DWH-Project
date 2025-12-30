@@ -18,6 +18,9 @@ Highlights:
 		- Recency (months since last order)
 		- average order value
 		- average monthly spend
+
+-- Usage case
+      SELECT * FROM gold.customers_report;
 ==================================================================================
 */
 IF OBJECT_ID('gold.customers_report', 'V') IS NOT NULL
@@ -109,6 +112,3 @@ SELECT
 		ELSE total_sales / lifespan
 	END AS avg_monthly_spend
 FROM customer_aggregation;
-
--- Usage
-SELECT * FROM gold.customers_report;
